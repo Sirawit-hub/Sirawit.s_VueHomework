@@ -11,13 +11,19 @@
     <p style="text-align: center">
       <button @click="goHome()">
         <router-link :to="{ name: 'home' }"
-          ><img src="@/assets/home-icon.png" width="40" height="40"
+          ><img
+            src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/Lea7-home-icon.png"
+            width="40"
+            height="40"
         /></router-link>
       </button>
 
       <button @click="goProfile()">
         <router-link :to="{ name: 'contact' }"
-          ><img src="@/assets/report_icon.png" width="40" height="40"
+          ><img
+            src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/w6c--report_icon.png"
+            width="40"
+            height="40"
         /></router-link>
       </button>
     </p>

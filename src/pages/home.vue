@@ -7,7 +7,10 @@
       <br />
       <button @click="goProfile()">
         <router-link :to="{ name: 'profile' }"
-          ><img src="@/assets/report_icon.png" width="150" height="150"
+          ><img
+            src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/w6c--report_icon.png"
+            width="150"
+            height="150"
         /></router-link></button
       ><br />
       <br />
@@ -18,7 +21,10 @@
       <br />
       <button @click="goContact()">
         <router-link :to="{ name: 'home' }"
-          ><img src="@/assets/Contact-icon.png" width="150" height="150"
+          ><img
+            src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/ltDj-Contact-icon.png"
+            width="150"
+            height="150"
         /></router-link></button
       ><br />
       <br />

@@ -1,7 +1,10 @@
 <template>
   <div class="container text-center" style="text-align: center">
     <h1>Profile</h1>
-    <img src="@/assets/Profile_image.jpg" width="500" />
+    <img
+      src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/dRtL-Profile_image.jpg"
+      width="500"
+    />
     <p>Name : {{ name }}</p>
     <p>Nickname : {{ nickname }}</p>
     <p>Age : {{ age }} years</p>
@@ -16,13 +19,19 @@
   <p style="text-align: center">
     <button @click="goHome()">
       <router-link :to="{ name: 'home' }"
-        ><img src="@/assets/home-icon.png" width="40" height="40"
+        ><img
+          src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/Lea7-home-icon.png"
+          width="40"
+          height="40"
       /></router-link>
     </button>
 
     <button @click="goContact()">
       <router-link :to="{ name: 'contact' }"
-        ><img src="@/assets/Contact-icon.png" width="40" height="40"
+        ><img
+          src="https://uploads.codesandbox.io/uploads/user/fe1e58e1-57c0-439b-90dd-8c1fd94f19b1/ltDj-Contact-icon.png"
+          width="40"
+          height="40"
       /></router-link>
     </button>
   </p>
